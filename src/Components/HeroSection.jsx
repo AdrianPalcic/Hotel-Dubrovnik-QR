@@ -12,7 +12,7 @@ const HeroSection = () => {
             <div className="overlay">
                 <div className="content-container">
                     <h1 className="title">Hotel Dubrovnik Kavana</h1>
-                    <p className="subtitle">Otkrijte našu ponudu</p>
+
                 </div>
             </div>
         </div>

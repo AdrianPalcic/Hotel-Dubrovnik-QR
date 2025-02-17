@@ -10,7 +10,7 @@ const MenuSection = () => {
             name: "Bezalkoholna pića",
             description: "Coca-Cola, Pepsi, Sprite, Fanta, etc.",
             image: "/Soft-drinks.jpg",
-            category: "soft-drinks"
+            category: "bezalkoholna-pica"
         },
         {
             id: 2,
@@ -24,14 +24,14 @@ const MenuSection = () => {
             name: "Alkoholna pića ",
             description: "Pive i žestice",
             image: "/Alcoholic-drinks.jpg",
-            category: "alcoholic-drinks"
+            category: "alkoholna-pica"
         },
         {
             id: 4,
             name: "Vina",
             description: "Pregledajte najkvalitetniji izbor vina",
-            image: "/Wine.jpg",
-            category: "Vina"
+            image: "/public/Wine.jpg",
+            category: "vina"
         },
     ]
 
@@ -46,6 +46,7 @@ const MenuSection = () => {
                             description={category.description}
                             image={category.image}
                             category={category.category}
+                            isSubcategory={false}
                         />
                     ))
                 }
