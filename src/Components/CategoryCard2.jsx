@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 
-const CategoryCard = React.memo(({ title, description, image, category }) => {
+const CategoryCard2 = React.memo(({ title, description, image, category }) => {
     return (
-        <Link to={category !== "vina" ? `/${category}` : '/vina'}>
+        <Link to={`/vina/${category}`}>
             <div className="category-card">
                 <img src={image || "/Coffe.jpg"} alt={title} className="category-image" loading="lazy" />
                 <div className="category-content">
@@ -16,4 +16,4 @@ const CategoryCard = React.memo(({ title, description, image, category }) => {
     );
 });
 
-export default CategoryCard;
+export default CategoryCard2;

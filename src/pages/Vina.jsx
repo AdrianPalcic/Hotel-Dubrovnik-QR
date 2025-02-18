@@ -1,6 +1,8 @@
 import React from 'react'
 import CategoryCard from '../Components/CategoryCard'
+import CategoryCard2 from '../Components/CategoryCard2'
 import FooterCTA from '../Components/FooterCTA'
+import Breadcrumbs from '../Components/BreadCrumbs'
 
 const Vina = () => {
 
@@ -37,12 +39,13 @@ const Vina = () => {
 
     return (
         <main>
+            <Breadcrumbs />
             <section className="category-grid-container">
                 <h2>Vina</h2>
                 <div className="category-grid">
                     {
                         categories.map((category) => (
-                            <CategoryCard
+                            <CategoryCard2
                                 key={category.id}
                                 title={category.name}
                                 description={category.description}

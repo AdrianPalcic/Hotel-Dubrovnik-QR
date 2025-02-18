@@ -54,38 +54,33 @@ const menuData = [
         ]
     },
     {
-        "category": "vina",
-        "subcategories": [
-            {
-                "subcategory": "bijela-vina",
-                "items": [
-                    { "name": "Malvazija Dešković", "price": 4.5, "image": "/vina/malvdeskovic.jpg", "volume": "0.15 L" },
-                    { "name": "Graševina Knezović", "price": 4.5, "image": "/vina/grasknez.jpg", "volume": "0.15 L" }
-                ]
-            },
-            {
-                "subcategory": "crvena-vina",
-                "items": [
-                    { "name": "Cuvee Knezović", "price": 5.0, "image": "/vina/knezoviccuvee.jpg", "volume": "0.15 L" },
-                    { "name": "Merlot Markota", "price": 5.0, "image": "/vina/merlotmarkota.jpg", "volume": "0.15 L" },
-                    { "name": "Merlot Korlat", "price": 25.0, "image": "/vina/merlotkorlat.jpg", "volume": "0.7 L" },
-                    { "name": "Syrah Korlat", "price": 25.0, "image": "/vina/merlotSyrah.jpg", "volume": "0.7 L" },
-                    { "name": "Dingač Škaramuća", "price": 6.0, "image": "/vina/dingac.jpg", "volume": "0.15 L" }
-                ]
-            },
-            {
-                "subcategory": "desertna-vina",
-                "items": [
-                    { "name": "Muškat Bijeli Dešković", "price": 6.0, "image": "/vina/muskat.jpg", "volume": "0.15 L" },
-                    { "name": "Trs No.5", "price": 6.0, "image": "/vina/trs.jpg", "volume": "0.15 L" }
-                ]
-            },
-            {
-                "subcategory": "pjenušava-vina",
-                "items": [
-                    { "name": "Today Blanc", "price": 7.0, "image": "/vina/today.jpg", "volume": "0.15 L" }
-                ]
-            }
+        "category": "bijela-vina",
+        "items": [
+            { "name": "Malvazija Dešković", "price": 4.5, "image": "/vina/malvdeskovic.jpg", "volume": "0.15 L" },
+            { "name": "Graševina Knezović", "price": 4.5, "image": "/vina/grasknez.jpg", "volume": "0.15 L" }
+        ]
+    },
+    {
+        "category": "crvena-vina",
+        "items": [
+            { "name": "Cuvee Knezović", "price": 5.0, "image": "/vina/knezoviccuvee.jpg", "volume": "0.15 L" },
+            { "name": "Merlot Markota", "price": 5.0, "image": "/vina/merlotmarkota.jpg", "volume": "0.15 L" },
+            { "name": "Merlot Korlat", "price": 25.0, "image": "/vina/merlotkorlat.jpg", "volume": "0.7 L" },
+            { "name": "Syrah Korlat", "price": 25.0, "image": "/vina/merlotSyrah.jpg", "volume": "0.7 L" },
+            { "name": "Dingač Škaramuća", "price": 6.0, "image": "/vina/dingac.jpg", "volume": "0.15 L" }
+        ]
+    },
+    {
+        "category": "desertna-vina",
+        "items": [
+            { "name": "Muškat Bijeli Dešković", "price": 6.0, "image": "/vina/muskat.jpg", "volume": "0.15 L" },
+            { "name": "Trs No.5", "price": 6.0, "image": "/vina/trs.jpg", "volume": "0.15 L" }
+        ]
+    },
+    {
+        "category": "pjenušava-vina",
+        "items": [
+            { "name": "Today Blanc", "price": 7.0, "image": "/vina/today.jpg", "volume": "0.15 L" }
         ]
     }
 ]

@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <div className="hero-section">
             <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hotel%20Dubrovnik%20hero.jpg-eO81c6TNeIv7Gc81lLdbzR1R3gMRLb.jpeg"
+                src="\Hotel Dubrovnik hero.avif"
                 alt="Hotel Dubrovnik"
                 className="hero-image"
                 loading='lazy'
