@@ -30,7 +30,7 @@ const MenuSection = () => {
             id: 4,
             name: "Vina",
             description: "Pregledajte najkvalitetniji izbor vina",
-            image: "/public/Wine.jpg",
+            image: "/Wine.jpg",
             category: "vina"
         },
     ]
